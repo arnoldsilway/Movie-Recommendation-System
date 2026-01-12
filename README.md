@@ -1,4 +1,4 @@
-## Movie Recommendation System (Semester Project for Fundamentals of AI)
+## Movie Recommendation System
 The Movie Recommendation System is a user-friendly web application built using Streamlit. It helps users discover new movies similar to ones they already enjoy. By analyzing metadata such as genre, cast, crew, and plot, the system computes similarity scores between movies and recommends the top matches instantly. </br>
 </br>
 
@@ -55,3 +55,4 @@ These datasets are merged and cleaned to build a comprehensive feature space for
 ├── README.md              # Project documentation
 ```
    
+
