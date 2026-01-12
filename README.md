@@ -1,6 +1,9 @@
 ## Movie Recommendation System
 The Movie Recommendation System is a user-friendly web application built using Streamlit. It helps users discover new movies similar to ones they already enjoy. By analyzing metadata such as genre, cast, crew, and plot, the system computes similarity scores between movies and recommends the top matches instantly. </br>
 </br>
+
+<img width="707" height="797" alt="image" src="https://github.com/user-attachments/assets/1ab5e77f-691f-4b67-b058-df67b6efe9cd" />
+
 ### Technologies & Tools
 Here's a quick glance at what powers our recommendation engine:
 - **Streamlit** – For building an interactive web UI.
@@ -43,6 +46,7 @@ These datasets are merged and cleaned to build a comprehensive feature space for
     📽️ For movies: title, release date, director, genre, cast, and a short description. </br>
     🎭 For actors: full name, birthdate, and notable filmography. </br>
     It’s an intelligent assistant built right into the app, making movie exploration more insightful and engaging.
+
 
 
 
