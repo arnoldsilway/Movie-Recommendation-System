@@ -32,10 +32,8 @@ These datasets are merged and cleaned to build a comprehensive feature space for
     pickle.dump(similarity, f)
    ```
 #### Frontend(app.py)
-
 5. **Movie Recommendation Tab** : Loads the pickled files then, provides a dropdown for movie selection and displays top 5 similar movies using a recommend function:
-
-   ```python
+ ```python
   def recommend(movie):
       movie_index = movies[movies['title'] == movie].index[0]
       distances = similarity[movie_index]
@@ -46,9 +44,3 @@ These datasets are merged and cleaned to build a comprehensive feature space for
     📽️ For movies: title, release date, director, genre, cast, and a short description. </br>
     🎭 For actors: full name, birthdate, and notable filmography. </br>
     It’s an intelligent assistant built right into the app, making movie exploration more insightful and engaging.
-
-
-
-
-
-
