@@ -16,8 +16,25 @@ We use two publicly available datasets from TMDB (The Movie Database):
 - `tmdb_5000_credits.csv` – Contains cast and crew data for the corresponding movies.
 These datasets are merged and cleaned to build a comprehensive feature space for our model.
 
+### Working of Project
+1. **Loading and Merging Datasets:** The TMDB datasets (tmdb_5000_movies.csv and tmdb_5000_credits.csv) are loaded and merged based on the movie_id to create a unified dataframe.
+2. **Text Preprocessing & Feature Engineering:** We combine columns such as genre, cast, director, and overview into a unified text field.
+3. **Calculating Similarity:** We use cosine similarity to measure how close two movies are:
+
+    ```python
+    from sklearn.metrics.pairwise import cosine_similarity
+    similarity = cosine_similarity(vectors)
+    ```
+4. **Fast Retrieval with Pickle:** To avoid recomputation, we serialize the movie dictionary and similarity matrix using `.pkl` files.
+
+   ```python
+   with open('similarity.pkl', 'wb') as f:
+    pickle.dump(similarity, f)
+   ```
+#### Frontend(app.py)
 
    
+
 
 
 
