@@ -1,40 +1,6 @@
 ## Movie Recommendation System
 The Movie Recommendation System is a user-friendly web application built using Streamlit. It helps users discover new movies similar to ones they already enjoy. By analyzing metadata such as genre, cast, crew, and plot, the system computes similarity scores between movies and recommends the top matches instantly. </br>
 </br>
-
-Movie-Recommendation-System/
-│
-├── app.py                         # Main Streamlit application (UI entry point)
-│
-├── data/                          # Dataset storage
-│   ├── movies.csv                 # Movie metadata dataset
-│   ├── credits.csv                # Cast & crew information
-│   └── processed_movies.csv       # Cleaned & merged dataset
-│
-├── models/                        # Saved models & similarity files
-│   ├── similarity.pkl             # Cosine similarity matrix
-│   └── movies.pkl                 # Processed movie objects
-│
-├── notebooks/                     # Jupyter notebooks (experimentation)
-│   ├── data_preprocessing.ipynb   # Data cleaning & feature engineering
-│   └── model_building.ipynb       # Recommendation logic & similarity creation
-│
-├── src/                           # Core logic and helper modules
-│   ├── __init__.py
-│   ├── recommender.py             # Recommendation algorithm logic
-│   ├── preprocessing.py           # Data preprocessing functions
-│   └── utils.py                   # Helper functions
-│
-├── assets/                        # Static assets
-│   └── screenshots/               # App screenshots for README
-│
-├── requirements.txt               # Project dependencies
-│
-├── README.md                      # Project documentation
-│
-├── LICENSE                        # License file (MIT / Apache etc.)
-│
-└── .gitignore                     # Ignored files & folders
 ### Technologies & Tools
 Here's a quick glance at what powers our recommendation engine:
 - **Streamlit** – For building an interactive web UI.
@@ -77,5 +43,6 @@ These datasets are merged and cleaned to build a comprehensive feature space for
     📽️ For movies: title, release date, director, genre, cast, and a short description. </br>
     🎭 For actors: full name, birthdate, and notable filmography. </br>
     It’s an intelligent assistant built right into the app, making movie exploration more insightful and engaging.
+
 
 
