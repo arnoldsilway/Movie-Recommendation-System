@@ -36,7 +36,13 @@ These datasets are merged and cleaned to build a comprehensive feature space for
 5. **Movie Recommendation Tab** : Loads the pickled files then, provides a dropdown for movie selection and displays top 5 similar movies using a recommend function:
 
    ```python
-  
+  def recommend(movie):
+      movie_index = movies[movies['title'] == movie].index[0]
+      distances = similarity[movie_index]
+      movies_list = sorted(list(enumerate(distances)), reverse=True, key=lambda x: x[1])[1:6]
+      return [movies.iloc[i[0]].title for i in movies_list]
+   ```
+
 
 
 
