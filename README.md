@@ -33,7 +33,11 @@ These datasets are merged and cleaned to build a comprehensive feature space for
    ```
 #### Frontend(app.py)
 
-   
+5. **Movie Recommendation Tab** : Loads the pickled files then, provides a dropdown for movie selection and displays top 5 similar movies using a recommend function:
+
+   ```python
+  
+
 
 
 
