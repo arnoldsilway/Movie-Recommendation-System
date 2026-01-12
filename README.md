@@ -35,11 +35,6 @@ Movie-Recommendation-System/
 ├── LICENSE                        # License file (MIT / Apache etc.)
 │
 └── .gitignore                     # Ignored files & folders
-
-
-
-
-
 ### Technologies & Tools
 Here's a quick glance at what powers our recommendation engine:
 - **Streamlit** – For building an interactive web UI.
@@ -82,4 +77,5 @@ These datasets are merged and cleaned to build a comprehensive feature space for
     📽️ For movies: title, release date, director, genre, cast, and a short description. </br>
     🎭 For actors: full name, birthdate, and notable filmography. </br>
     It’s an intelligent assistant built right into the app, making movie exploration more insightful and engaging.
+
 
