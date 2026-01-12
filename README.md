@@ -10,3 +10,15 @@ Here's a quick glance at what powers our recommendation engine:
 - **Scikit-learn** – To compute cosine similarity between movies.
 - **NLTK** – For text cleaning and preprocessing.
 
+### Datasets Used
+We use two publicly available datasets from TMDB (The Movie Database):
+- `tmdb_5000_movies.csv` – Contains movie titles, overviews, genres, release dates, etc.
+- `tmdb_5000_credits.csv` – Contains cast and crew data for the corresponding movies.
+These datasets are merged and cleaned to build a comprehensive feature space for our model.
+
+
+   
+
+
+
+
